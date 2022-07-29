@@ -70,6 +70,17 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+.container {
+  display: flex;
+}
+.left-half {
+  flex: 1;
+  padding: 1rem;
+}
+.right-half {
+  flex: 1;
+  padding: 1rem;
+}
 
 /* Basic */
 
